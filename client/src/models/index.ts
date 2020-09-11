@@ -5,5 +5,5 @@ import classification from '../pages/classification/model';
 
 export default [
    common,
-classification,
+   classification,
 ]

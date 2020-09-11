@@ -1,7 +1,8 @@
-import Taro, { Component, Config } from "@tarojs/taro";
-import { Provider }./pages/index/indexs/redux";
 import "@tarojs/async-await";
-import 'taro-ui/dist/style/index.scss'
+import Taro, { Component, Config } from "@tarojs/taro";
+import { Provider } from '@tarojs/redux';
+// import 'taro-ui/dist/style/index.scss'
+// import 'taro-ui/dist/style/index.less'
 import "./app.less";
 import models from './models';
 import dva from './utils/dva';
